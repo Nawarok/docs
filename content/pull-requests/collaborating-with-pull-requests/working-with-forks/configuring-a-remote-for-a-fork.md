@@ -29,8 +29,9 @@ shortTitle: Configure a remote
 4. Verify the new upstream repository you've specified for your fork.
   ```shell
   $ git remote -v
-  > origin    https://{% data variables.command_line.codeblock %}/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (fetch)
-  > origin    https://{% data variables.command_line.codeblock %}/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (push)
-  > upstream  https://{% data variables.command_line.codeblock %}/<em>ORIGINAL_OWNER</em>/<em>ORIGINAL_REPOSITORY</em>.git (fetch)
+  > origin    https://{% data variables.command_line.codeun[CHANGELOG.md](https://github.com/github/docs/files/8195854/CHANGELOG.md)
+block %}/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (fetch)
+  > origin    https://{% data variables.command_line.codeunblock %}/<em>YOUR_USERNAME</em>/<em>YOUR_FORK</em>.git (push)
+  > upstream  https://{% data variables.command_line.codeunblock %}/<em>ORIGINAL_OWNER</em>/<em>ORIGINAL_REPOSITORY</em>.git (fetch)
   > upstream  https://{% data variables.command_line.codeblock %}/<em>ORIGINAL_OWNER</em>/<em>ORIGINAL_REPOSITORY</em>.git (push)
   ```
